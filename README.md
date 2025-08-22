@@ -66,12 +66,6 @@ C:\> python C:\path\to\excel2016_compat_check.py "C:\path\to\book.xlsx"
 ## フォルダ構成
 - `excel2016_compat_check.bat` … D&D 実行用バッチ
 - `excel2016_compat_check.py` … 本体スクリプト
-- `2016_365_test.xlsx` … テスト用サンプル
 
-## 変更履歴
-- 2025-08-22
-  - D&D の堅牢化（複数ファイル、スペース/日本語パス対応）
-  - `python` / `py -3` / `WSL python3` 自動検出
-  - 出力の文字化け対策（UTF-8 固定）
-  - 関数検出の正規化強化（`_xlfn.*`, `@*` を考慮）
-
+## 備考
+このセクション以外全てAI Generatedです。
